@@ -3,7 +3,7 @@
 class HelloWorld {
 
     def hello() {
-        return "Hello, World!"
+        "Hello, World!"
     }
 
 }
