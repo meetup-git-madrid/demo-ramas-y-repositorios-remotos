@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TwoFerSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-12T18:58:33" hostname="b8aee78ba881" time="1.144">
+<testsuite name="TwoFerSpec" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-01-12T19:06:39" hostname="b8aee78ba881" time="1.454">
   <properties/>
   <testcase name="No name given" classname="TwoFerSpec" time="1.144"/>
+  <testcase name="Empty name given" classname="TwoFerSpec" time="0.035"/>
+  <testcase name="A name given" classname="TwoFerSpec" time="0.2"/>
+  <testcase name="Another name given" classname="TwoFerSpec" time="0.01"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
