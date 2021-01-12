@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TwoFerSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-12T18:58:33" hostname="b8aee78ba881" time="1.144">
+  <properties/>
+  <testcase name="No name given" classname="TwoFerSpec" time="1.144"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
