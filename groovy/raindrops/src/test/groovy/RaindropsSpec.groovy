@@ -29,7 +29,7 @@ class RaindropsSpec extends Specification {
         expect:
         raindrops.convert(number) == expected
 
-        where:
+      git add  where:
         number || expected
         5      || 'Plang'
     }
@@ -44,7 +44,7 @@ class RaindropsSpec extends Specification {
         7      || 'Plong'
     }
 
-    @Ignore
+    //@Ignore
     def "The sound for 6 is Pling as it has a factor 3"() {
         expect:
         raindrops.convert(number) == expected
@@ -54,7 +54,7 @@ class RaindropsSpec extends Specification {
         6      || 'Pling'
     }
 
-    @Ignore
+    //@Ignore
     def "2 to the power 3 does not make a raindrop sound as 3 is the exponent not the base"() {
         expect:
         raindrops.convert(number) == expected
@@ -64,7 +64,7 @@ class RaindropsSpec extends Specification {
         8      || '8'
     }
 
-    @Ignore
+    //@Ignore
     def "The sound for 9 is Pling as it has a factor 3"() {
         expect:
         raindrops.convert(number) == expected
@@ -74,7 +74,7 @@ class RaindropsSpec extends Specification {
         9      || 'Pling'
     }
 
-    @Ignore
+    //@Ignore
     def "The sound for 10 is Plang as it has a factor 5"() {
         expect:
         raindrops.convert(number) == expected
@@ -84,7 +84,7 @@ class RaindropsSpec extends Specification {
         10     || 'Plang'
     }
 
-    @Ignore
+    //@Ignore
     def "The sound for 14 is Plong as it has a factor of 7"() {
         expect:
         raindrops.convert(number) == expected
