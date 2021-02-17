@@ -1,2 +1,6 @@
 .gradle/
 .grapes/
+
+#Ignorar temporalmente los ficheros relacionados con docker
+Dockerfile
+Makefile
