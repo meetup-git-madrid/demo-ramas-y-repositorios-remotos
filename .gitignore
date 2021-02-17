@@ -1,5 +1,6 @@
 .gradle/
 .grapes/
+build/
 
 #Ignorar temporalmente los ficheros relacionados con docker
 Dockerfile
