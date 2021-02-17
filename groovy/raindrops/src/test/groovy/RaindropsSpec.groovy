@@ -24,7 +24,7 @@ class RaindropsSpec extends Specification {
         3      || 'Pling'
     }
 
-    @Ignore
+    //Ignore
     def "The sound for 5 is Plang"() {
         expect:
         raindrops.convert(number) == expected
@@ -34,7 +34,7 @@ class RaindropsSpec extends Specification {
         5      || 'Plang'
     }
 
-    @Ignore
+    //Ignore
     def "The sound for 7 is Plong"() {
         expect:
         raindrops.convert(number) == expected
