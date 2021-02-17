@@ -1,7 +1,12 @@
 class Raindrops {
 
     def convert(num) {
-        num.toString();
+
+        if (num % 3 == 0) {
+            "Pling"
+        } else {
+            num.toString();
+        }
     }
 
 }

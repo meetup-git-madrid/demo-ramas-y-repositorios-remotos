@@ -14,7 +14,7 @@ class RaindropsSpec extends Specification {
         1      || '1'
     }
 
-    @Ignore
+    //@Ignore
     def "The sound for 3 is Pling"() {
         expect:
         raindrops.convert(number) == expected
